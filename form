@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Registeration Form</title>
+        </head>
+        <body>
+            <h1 style ="text-align:center">Registration Form</h1>
+        </body>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        name:
+                        </td>
+                    <td>
+                     <input type="text" placeholder="name" >  
+                    </td>              
+                    </tr>
+                    <tr>
+                        <td>
+                            phone number:
+                        </td>
+                        <td>
+                            <input type="text" placeholder="number" >  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            E-mail:
+                        </td>
+                        <td>
+                            <input type="text" placeholder="@***" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            password:
+                        </td>
+                        <td>
+                            <input type="text" placeholder="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gender:
+                        </td>
+                        <td>
+                            <input type="radio" name="gender">male
+                            <input type="radio" name="gender">female
+                            <input type="radio" name="gender">others
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date Of Birth:
+                        </td>
+                        <td>
+                            <input type="Date"
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        Hobbies:
+                        </td>
+                        <td>
+                            <input type="checkbox"singing>singing
+                            <input type="checkbox"reading books>reading books
+                            <input type="checkbox"dancing>dancing
+                            <input type="checkbox"playing>playing
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        Eduaction Qualification:
+                        </td>
+                        <td>
+                            <select>
+                                <option>none</option>
+                                <option>Graduation</option>
+                                <option>postgraduation</option>
+
+                            </select>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Address:
+                        </td>
+                        <td>
+                            <textarea rows ="7" cols ="15" placeholder ="address"></textarea>
+
+                        </td>
+                    </tr>
+                <tr>
+                    <td>
+                        <input type ="submit" value ="submit">
+                        <input type ="reset" value ="reset">
+                    </td>
+                    </table>
+            </table>
+        </form>             
